@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(233, 230, 230);
+    color: white;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 20px;
+    box-shadow: 0px 4px 7px 4px rgb(14, 13, 13);
+    width: 100%;
+}
+.logo {
+    margin-left: 20px;
+}
+.logo h1 {
+    border-bottom: 4px solid red;
+    width: 220px;
+    border-radius: 2px;
+    border-bottom-right-radius: 18px;
+    font-family: cursive;
+    font-size: 25px;
+    color: red;
+}
+nav ul {
+    display: flex;
+    margin-top: 8px;
+
+}
+ul a {
+    margin-inline: 18px;
+    color: white;
+    text-decoration: none;
+}
+ul a:hover {
+    color: red;
+    border-bottom: 1px solid red;
+    font-weight: 900;
+}
+.login button {
+    background-color: red;
+    border-radius: 2px;
+    color: aliceblue;
+    cursor: pointer;
+    padding: 20px;
+    width: 70px;
+    border: none;
+    outline: none;
+}
+.login button:hover {
+    background-color: transparent;
+    border: 1px solid red;
+}
+
+
+.about1 h1{
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    margin-bottom: 10px;
+}
+.about1 h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: grey;
+}
+.about1{
+    padding: 40px;
+    margin-top: 120px;   
+}
+.cont1{
+    padding: 40px;
+}
+.cont1 h2{
+    margin-bottom: 10px;
+}
+.cont1 h1{
+    margin-bottom: 7px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cont1 p{
+    margin-bottom: 20px;
+    
+}
+.cont1 img{
+    border-radius: 20px;
+}
+.conten{
+margin-top: -30rem;
+display: flex;
+padding: 10px;
+padding-left: 45px;
+}
+.cont2 h2{
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.conten1{
+    margin-left: 150px;
+}
+.conten1 p{
+    font-size: 19px;
+}
+.conten1 h2{
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cont2 p{
+    font-size: 19px;
+}
+.cont-img{
+    display: flex;
+    padding: 10px; 
+    margin-top: 10px;
+    padding-left: 40px;
+    
+}
+.cont3 img{
+    border-radius: 20px;
+    margin-right: 80px;
+}
+.cont3 h2{
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cont3 p{
+    font-size: 19px;
+}
+.conn{
+    display: flex;
+}
+
+.icons2 i {
+    color: red;
+    font-size: 4rem;
+    padding: 2rem;
+
+}
+
+.icons2 {
+    display: flex;
+}
+
+.food h3 {
+    color: black;
+}
+
+.food p {
+    color: grey;
+}
+
+.food1 h3 {
+    color: black;
+}
+
+.food1 p {
+    color: grey;
+}
+
+.food2 h3 {
+    color: black;
+}
+
+.food2 p {
+    color: grey;
+}
+
+.food3 h3 {
+    color: black;
+}
+
+.food3 p {
+    color: grey;
+}
+
+.content3 {
+
+    background-color: #f3eee0;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.logo2 {
+    display: flex;
+}
+
+.img-con {
+    height: 3rem;
+}
+
+.img-con img {
+    height: 13rem;
+    margin-left: 35rem;
+}
+
+.icons3 i {
+    background-color: #f1c40f;
+    border-radius: 50%;
+    padding: 10px;
+
+    border: 2px solid #f1c40f;
+    width: 3rem;
+    color: black;
+}
+.content4 {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.menu-con1 {
+    border: 1px solid rgb(215, 208, 208);
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    padding: 35px;
+    text-align: center;
+    margin: 10px;
+}
+
+.feedback {
+    display: flex;
+    padding: 20px;
+}
+
+.menu-con1 h3 {
+    color: black;
+}
+
+.menu-con1 p {
+    color: grey;
+}
+
+.icons1 {
+    color: rgb(165, 165, 6);
+}
+
+.content7 {
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    background-color: #e7e3cf;
+}
+
+.icon1 {
+    color: black;
+    font-size: 2rem;
+}
+.icon1 i{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.icon1 i:hover{
+    color: #f1c40f;
+    cursor: pointer;
+}
+
+.logo7 a{
+    display: block;
+    padding: 10px; 
+    text-decoration: none;
+    color: rgb(111, 108, 108);
+}
+.logo7 a:hover{
+    color: red;
+}
+.logo7 button {
+    padding-bottom: 35px;
+    padding-top: 10px;
+    background-color: #f1c40f;
+    border: none;
+    border-radius: 50px;
+    height: 10px;
+    width: 8rem;
+    margin-top: 20px;
+}
+.logo7 button:hover {
+    background-color: rgb(235, 120, 120);
+}
+.cont a{
+    justify-content: space-between;
+    margin-right: 40px;
+    text-decoration: none;
+    color: grey;
+   
+}
+.cont a:hover{
+    color: red;
+}
+.cont{
+    padding-left: 30px;
+    padding-bottom: 30px;
+    background-color: #e7e3cf;
+}
+
+

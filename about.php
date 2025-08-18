@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="about.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container-nav">
+        <nav>
+            <div class="logo">
+                <h1>jamshedpur food</h1>
+            </div>
+
+            <ul>
+               <a href="index.php">home</a>
+                <a href="about.php">about</a>
+                <a href="menu.php">our menu</a>
+                <a href="booking.php">book now</a>
+                <a href="contact.php">contact</a>
+
+            </ul>
+
+            <div class="login">
+                <button>Login</button>
+            </div>
+        </nav>
+    </div>
+    <div class="about1">
+        <h1>About Us</h1>
+        <h2>Lorem Ipsum is simply dummy text of the printing <br> and typesetting industry.</h2>
+    </div>
+    <div class="about2">
+        <div class="conn">
+            <div class="cont1">
+                <h2 style="color: red;font-size: 1.6rem;">Our Story</h2>
+                <h1 style="color: black; font-size: 2.4rem;">The Story About Pizzon</h1>
+                <p style="color: grey; font-size: 20px;">Lorem ipsum dolor sit amet,colur consectetur omni adipisicing
+                    elit,sed do eiusmod tempor incididunt labore et magna aliqua.</p>
+            </div>
+            <div class="cont1">
+                <img src="image/abt-img-2.jpg" alt="" height="600px" width="400px">
+            </div>
+        </div>
+        <div class="conten">
+            <div class="cont2">
+                <h2 style="color: black;">Our Family Name</h2>
+                <p style="color: grey;">Lorem ipsum dolor sit amet,<br> consectetur omni adipisicing elit, sed <br>do
+                    eiusmod
+                    tempor sol incididunt ut<br>labore et exercitation.</p>
+            </div>
+            <div class="conten1">
+                <h2 style="color: black;">Our Journey</h2>
+                <p style="color: grey;">Lorem ipsum dolor sit amet,<br> consectetur omni adipisicing elit, sed <br>do
+                    eiusmod
+                    tempor sol incididunt ut<br>labore et exercitation.</p>
+            </div>
+
+        </div>
+        <div class="cont-img">
+            <div class="cont3">
+                <img src="image/abt-img-1.jpg" alt="" height="250px" width="350px">
+            </div>
+            <div class="cont3">
+                <h2 style="color: black;">Food & Fun</h2>
+                <p style="color: grey;">Lorem ipsum dolor sit amet,<br> consectetur omni adipisicing elit, sed do <br>
+                    eiusmod
+                    tempor sol incididunt ut <br>labore et exercitation.</p>
+                <img src="image/abt-logo.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="content3">
+        <div class="logo2">
+            <div class="logo3">
+                <h3 style="color: red;">Our Strength</h3>
+                <h1 style="color: black;">Why We Are The Best?</h1>
+            </div>
+            <div class="img-con">
+                <img src="image/strength-vacter.png" alt="">
+            </div>
+        </div>
+
+        <div class="icons2">
+            <div class="food">
+                <i class="fa-solid fa-bowl-rice"></i>
+                <h3>All kinds of Foods</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and type setting industry.</p>
+            </div>
+            <div class="food1">
+                <i class="fa-solid fa-fan"></i>
+                <h3>Fresh Food</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and type setting industry.</p>
+            </div>
+            <div class="food2">
+                <i class="fa-solid fa-face-grin"></i>
+                <h3>Best Taste</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and type setting industry.</p>
+            </div>
+            <div class="food3">
+                <i class="fa-solid fa-location-dot"></i>
+                <h3>On Time Delivery</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and type setting industry.</p>
+            </div>
+        </div>
+
+        <div class="content4">
+        <div class="logo4">
+            <h3 style="color: red;">Customer Feedback</h3>
+            <h1 style="color: black;">Client Testimonials</h1>
+        </div>
+
+        <div class="icons3">
+            <i class="fa-solid fa-arrow-left"></i>
+            <i class="fa-solid fa-arrow-right"></i>
+        </div>
+    </div>
+    <div class="feedback">
+        <div class="menu-con1">
+            <img src="image/client-1.jpg" alt="">
+            <div class="client-1">
+                <h3>Johan Doe</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum accusamus numquam consequatur cumque
+                    dolorem impedit illum sequi.</p>
+            </div>
+            <div class="icons1">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+        </div>
+        <div class="menu-con1">
+            <img src="image/client-2.jpg" alt="">
+            <div class="client-1">
+                <h3>Alex Saanu</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum accusamus numquam consequatur
+                    cumque dolorem impedit illum sequi.</p>
+            </div>
+            <div class="icons1">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+        </div>
+        <div class="menu-con1">
+            <img src="image/client-3.jpg" alt="">
+            <div class="client-1">
+                <h3>Jona Leoner</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum accusamus numquam consequatur
+                    cumque dolorem impedit illum sequi.</p>
+            </div>
+            <div class="icons1">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+        </div>
+        <div class="menu-con1">
+            <img src="image/client-4.jpg" alt="">
+            <div class="client-1">
+                <h3>Takar Bowa</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum accusamus numquam consequatur
+                    cumque dolorem impedit illum sequi.</p>
+            </div>
+            <div class="icons1">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="content7">
+        <div class="logo7">
+            <h6 style="color: black; display: block;">INFORMATION</h6>
+            <a href="">Home</a>
+            <a href="">Blog</a>
+            <a href="">About Us</a>
+            <a href="">Menu</a>
+            <a href="">Contact Us</a>
+        </div>
+        <div class="logo7">
+            <h6 style="color: black;">TOP ITEMS</h6>
+            <a href="">Pepperoni</a>
+            <a href="">Swiss Mushroom</a>
+            <a href="">Barbeque Chicken</a>
+            <a href="">Vegetarian</a>
+            <a href="">Ham & Cheese</a>
+        </div>
+        <div class="logo7">
+            <h6 style="color: black;">OTHERS</h6>
+            <a href="">Checkout</a>
+            <a href="">Cart</a>
+            <a href="">Product</a>
+            <a href="">Locations</a>
+            <a href="">Legal</a>
+        </div>
+        <div class="logo7">
+            <h6 style="color: black;">SOCIAL MEDIA</h6>
+            <div class="icon1">
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-square-pinterest"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+            </div>
+            <p style="color: grey;">Signup and get exclusive offers and <br> coupon codes</p>
+            <button>SIGN UP</button>
+        </div>
+    </div>
+    <div class="cont">
+        <a href="">Privacy Policy</a>
+        <a href="">Refund Policy</a>
+        <a href="">Cookie Policy</a>
+        <a href="">Terms & Conditions</a>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
+</html>

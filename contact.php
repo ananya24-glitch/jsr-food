@@ -1,0 +1,177 @@
+<?php
+include 'admin/db.php';
+
+if (isset($_POST['booknow'])){
+$name = $_POST['name'];
+$email = $_POST['email'];
+$number = $_POST['number'];
+$website = $_POST['website'];
+$message = $_POST['Message'];
+
+$sql= "INSERT INTO details (`Name`, `email`, `phone`, `website`, `Message`) VALUES ('$name','$email','$number','$website','$message')";
+
+if(mysqli_query($conn,$sql)){
+    echo"submit successfully";   
+}
+else{
+    echo"error".mysqli_error($conn);
+    }
+}
+?>
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="contact.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- nav bar section -->
+    <div class="container-nav">
+        <nav>
+            <div class="logo">
+                <h1>jamshedpur food</h1>
+            </div>
+
+            <ul>
+                <a href="index.php">home</a>
+                <a href="about.php">about</a>
+                <a href="menu.php">our menu</a>
+                <a href="booking.php">book now</a>
+                <a href="contact.php">contact</a>
+
+            </ul>
+
+            <div class="login">
+                <button>Login</button>
+            </div>
+        </nav>
+    </div>
+    <!-- nav bar section end -->
+
+    <div class="contact">
+        <h1>Contact Us</h1>
+        <h2>Lorem Ipsum is simply dummy text of the printing <br> and typesetting industry.</h2>
+    </div>
+
+    <div class="content5">
+        <div class="logo5">
+            <h4 style="color: red;">Consultation</h4>
+            <h1 style="color: black;">Send Us Message</h1>
+        </div>
+        <div class="details">
+            <form action="" method="post">
+                <div class="form-group">
+                    <input type="name" placeholder="Name *" required name="name" >
+                    <input type="email" placeholder="Email *" required name="email">
+                </div>
+                <div class="form-group">
+                    <input type="number" placeholder="Phone *" required name="number">
+                    <input type="website" placeholder="Website" required name="website">
+                </div>
+                <div class="form-group">
+                    <textarea name="Message" id="" placeholder="Write Message" style="width: 100%;"></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit" name="booknow">BOOK NOW</button>
+                </div>
+            </form>
+            <div class="reser-img">
+                <img src="image/cons-img.jpg" alt="" height="550px" width="500px">
+            </div>
+        </div>
+    </div>
+
+    <div class="location">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14711.258911439305!2d86.19055448080714!3d22.809327999026095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f5e30c11c7ba33%3A0xc49228a8b424f28e!2sSakchi%2C%20Jamshedpur%2C%20Jharkhand!5e0!3m2!1sen!2sin!4v1753939178091!5m2!1sen!2sin"
+            width="1275" height="550" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="cont-us">
+        <div class="icon-0">
+            <i class="fa-solid fa-location-dot"></i>
+            <div class="address">
+                <h4 style="color: black;">Location</h4>
+                <h5 style="color: grey;">155 Main Street, 2nd Floor<br> New York City</h5>
+            </div>
+        </div>
+        <div class="icon-0">
+            <i class="fa-solid fa-envelope"></i>
+            <div class="address1">
+                <h4 style="color: black;">Email Address</h4>
+                <a href="">Support@gmail.com</a>
+                <a href="">Contact@gmail.com</a>
+            </div>
+        </div>
+        <div class="icon-0">
+            <i class="fa-solid fa-phone-volume"></i>
+            <div class="address1">
+                <h4 style="color: black;">Contact Us</h4>
+                <a href="">+ 49 123 456 789</a>
+                <a href="">+ 49 123 456 789</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="content7">
+        <div class="logo7">
+            <h6 style="color: black; display: block;">INFORMATION</h6>
+            <a href="">Home</a>
+            <a href="">Blog</a>
+            <a href="">About Us</a>
+            <a href="">Menu</a>
+            <a href="">Contact Us</a>
+        </div>
+        <div class="logo7">
+            <h6 style="color: black;">TOP ITEMS</h6>
+            <a href="">Pepperoni</a>
+            <a href="">Swiss Mushroom</a>
+            <a href="">Barbeque Chicken</a>
+            <a href="">Vegetarian</a>
+            <a href="">Ham & Cheese</a>
+        </div>
+        <div class="logo7">
+            <h6 style="color: black;">OTHERS</h6>
+            <a href="">Checkout</a>
+            <a href="">Cart</a>
+            <a href="">Product</a>
+            <a href="">Locations</a>
+            <a href="">Legal</a>
+        </div>
+        <div class="logo7">
+            <h6 style="color: black;">SOCIAL MEDIA</h6>
+            <div class="icon1">
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-square-pinterest"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+            </div>
+            <p style="color: grey;">Signup and get exclusive offers and <br> coupon codes</p>
+            <button>SIGN UP</button>
+        </div>
+    </div>
+    <div class="cont">
+        <a href="">Privacy Policy</a>
+        <a href="">Refund Policy</a>
+        <a href="">Cookie Policy</a>
+        <a href="">Terms & Conditions</a>
+    </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
+
+</html>
