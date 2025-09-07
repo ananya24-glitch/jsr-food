@@ -241,10 +241,12 @@ border-radius: 20px;
 .cont a:hover{
     color: red;
 }
+.cont24{
+    padding-left: 10px;
+    padding-bottom: 30px;    
+}
 .cont{
     padding-left: 30px;
     padding-bottom: 30px;
     background-color: #e7e3cf;
 }
-
-
